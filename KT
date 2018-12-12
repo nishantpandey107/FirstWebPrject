@@ -1,0 +1,53 @@
+distibuted version control > revision control > content tracker > map values key
+
+
+GIT object model
+commit, tree, blob, Tag
+
+
+
+git cat-file -p cc9ad6a67134
+
+
+tag >  > regulr & annotated tag
+git tag -a R1.0.7 -m "code ready for release 1.0.7" >> add a tag
+git count-objects
+git cat-file -p R1.0.7    >> to get the commit
+
+
+
+BRANCH
+get branch  <branchname>
+git checkout  || head changes reference of branch
+
+git merge <source branch>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----OPEN GITBASH
+
+Training_M2B.00.72@M2B-D-69CNX52 MINGW64 /c/NP
+$ mkdir sample-project
+
+Training_M2B.00.72@M2B-D-69CNX52 MINGW64 /c/NP
+$ cd sample-project/
+
+Training_M2B.00.72@M2B-D-69CNX52 MINGW64 /c/NP/sample-project
+$ echo "hello" >> sample.txt
+
+Training_M2B.00.72@M2B-D-69CNX52 MINGW64 /c/NP/sample-project
+$ cat sample.txt | git hash-object --stdin
+ce013625030ba8dba906f756967f9e9ca394464a
+
