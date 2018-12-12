@@ -22,6 +22,16 @@ git checkout  || head changes reference of branch
 
 git merge <source branch>
 
+fast forward - --> no new commit id
+pointing to the recent commit
+
+--no-ff
+
+----------------------------
+Fast forward(no parallel branch)  VS recusive(parallel branch)
+
+
+
 
 
 
